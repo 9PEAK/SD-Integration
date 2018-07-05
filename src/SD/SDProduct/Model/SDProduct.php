@@ -5,10 +5,11 @@ use Illuminate\Support\Facades\Cache;
 
 trait Product {
 
-
 	use Base;
 
-
+	/**
+	 * 获取sd-product中的关联商品
+	 * */
 	public function sdProduct()
 	{
 		return $this->sdProduct = Cache::remember(
