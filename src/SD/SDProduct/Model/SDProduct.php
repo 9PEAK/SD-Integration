@@ -1,6 +1,8 @@
 <?php
 namespace Peak\SD\SDProduct\Model;
 
+use Illuminate\Support\Facades\Cache;
+
 trait Product {
 
 
